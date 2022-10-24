@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.movie-heading{
+    @apply w-64 text-center text-2xl text-white font-semibold bg-black/40 inline-block p-3 mt-4 rounded-md;
+}
+
+.moviecards{
+    @apply shadow-lg rounded-md flex mb-4 mt-4 max-w-md;
+}
